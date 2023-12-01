@@ -1,37 +1,10 @@
-# ¸ÐÖª»ú£¨Perceptron£©½Ì³Ì
+# æŽèˆª ã€Šç»Ÿè®¡å­¦ä¹ æ–¹æ³•ã€‹ ç¬¬äºŒç‰ˆ ä»£ç å¤çŽ°ä»¥åŠç›¸å…³å…¬å¼æŽ¨å¯¼
+#ä»£ç æ³¨é‡Šä¼šå†™å¾—å¾ˆè¯¦ç»†.
 
-## ¸ÐÖª»ú¼ò½é
-¸ÐÖª»úÊÇ×î¼òµ¥µÄÈË¹¤Éñ¾­ÍøÂçÐÎÊ½Ö®Ò»£¬ÓÃÓÚ½â¾ö¶þÔª·ÖÀàÎÊÌâ¡£
-
-## ¸ÐÖª»úµÄ¹¤×÷Ô­Àí
-
-### ´óÖÂË¼Ïë
-- ¸ÐÖª»ú½ÓÊÕ¶à¸öÊäÈë£¨x1, x2, ..., xn£©£¬Ã¿¸öÊäÈë¶¼ÓÐÒ»¸ö¶ÔÓ¦µÄÈ¨ÖØ£¨w1, w2, ..., wn£©¡£
-- ÊäÈëºÍÈ¨ÖØÏà³Ë²¢ÇóºÍ£¬¼ÓÉÏÆ«ÖÃÏî£¨bias£©¡£
-- ½«µÃµ½µÄ½á¹û´«µÝ¸ø¼¤»îº¯Êý£¨Í¨³£Îª½×Ô¾º¯Êý£©£¬Êä³ö×îÖÕµÄ·ÖÀà½á¹û¡£
-
-### ÊýÑ§Ô­Àí
-¸ÐÖª»úµÄÊýÑ§±í´ïÊ½ÈçÏÂËùÊ¾£º
-- ÊäÈëºÍÈ¨ÖØµÄÏßÐÔ×éºÏ: \( \sum_{i=1}^{n} w_i \cdot x_i + b \)
-- ½×Ô¾º¯Êý£º \( f(x) = \begin{cases} 1, & \text{if } \sum_{i=1}^{n} w_i \cdot x_i + b > 0 \\ 0, & \text{otherwise} \end{cases} \)
-
-### È¨ÖØ¸üÐÂËã·¨
-¸ÐÖª»úµÄÑ§Ï°¹æÔòÊ¹ÓÃ¼òµ¥µÄÈ¨ÖØ¸üÐÂËã·¨£¬Í¨¹ýËæ»úÌÝ¶ÈÏÂ½µ£¨Stochastic Gradient Descent£©À´¸üÐÂÈ¨ÖØºÍÆ«ÖÃÏîÒÔ×îÐ¡»¯Îó²î¡£
-ÔÚÃ¿Ò»ÂÖÑµÁ·ÖÐ£¬¶ÔÓÚÃ¿¸öÊäÈëÑù±¾£¨xi£©ºÍ¶ÔÓ¦µÄÕæÊµ±êÇ©£¨yi£©£¬È¨ÖØ¸üÐÂ¹æÔòÈçÏÂ£º
-- \( w_i = w_i + \alpha \cdot (y_i - \hat{y_i}) \cdot x_i \)£¬ÆäÖÐ \(\alpha\) ÊÇÑ§Ï°ÂÊ£¨learning rate£©£¬\(\hat{y_i}\) ÊÇÔ¤²âÖµ£¬\(y_i\) ÊÇÕæÊµÖµ¡£
-- \( b = b + \alpha \cdot (y_i - \hat{y_i}) \)
-
-### ¶ÔÅ¼ÐÎÊ½
-¸ÐÖª»ú»¹ÓÐÒ»ÖÖ¶ÔÅ¼ÐÎÊ½£¬Ê¹ÓÃÊäÈëÊý¾ÝºÍ±êÇ©µÄÄÚ»ý£¨dot product£©¼ÆËãÈ¨ÖØ¸üÐÂ¡£
-¶ÔÓÚÈ¨ÖØ¸üÐÂ£¬¿ÉÒÔÊ¹ÓÃÒÔÏÂ¹«Ê½½øÐÐ¸üÐÂ£º
-- \( w_i = w_i + \alpha \cdot (y_i - \hat{y_i}) \cdot x_i \)
-- \( b = b + \alpha \cdot (y_i - \hat{y_i}) \cdot 1 \)£¬ÆäÖÐ \(x_i\) ºÍ \(1\) ÊÇÊäÈëÊý¾ÝºÍÆ«ÖÃÏî£¬Í¨¹ýÄÚ»ý¼ÆËã¡£
+å‚è€ƒrepo lihang-code
 
 
 
-## ×Ü½á
-¸ÐÖª»úÊÇ×î¼òµ¥µÄÉñ¾­ÍøÂçÐÎÊ½Ö®Ò»£¬Í¨¹ýµ÷ÕûÈ¨ÖØºÍÆ«ÖÃÏî£¬Ëü¿ÉÒÔÑ§Ï°²¢Íê³É¼òµ¥µÄ¶þÔª·ÖÀàÈÎÎñ¡£
+Bugä¿®æ­£
 
-## ÎÄ¼þ½âÊÍ
-eg1.py Ô­Ê¼ÎÊÌâ
-eg_dual_form.py ¶ÔÅ¼ÐÎÊ½£¨ÆðÊ¼¾ÍÊÇ¼ÆËãÏÂGram¾ØÕó£©
+# 2023/11/30 æå‡æ–¹æ³• eg8.1 lihang-codeè¿è¡Œå‡ºæ¥æœ€åŽscore=0.4 è€Œä¹¦ä¸Šæ˜¯1.0 åŽŸå› æ˜¯lihang-codeé‡ŒæŠŠG3(x)å¼„é”™äº†(åº”è¯¥ä¸ºpositive)ï¼Œå…³é”®åœ¨äºŽ if weight_error_positive <= weight_error_nagetive:  #è¿™é‡Œåº”è¯¥æ”¹æˆ<=  ä»£ç ç¬¬60è¡Œã€‚
