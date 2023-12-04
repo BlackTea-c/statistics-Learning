@@ -1,5 +1,5 @@
+my_dict = {3: [1, 2], 4: [5, 6]}
 
-
-
-for s in [i+0.5 for i in range(1,10)]:
-    print(s)
+min_key = min(my_dict)
+min_value = my_dict[min_key]
+print(min_value)
